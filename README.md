@@ -6,6 +6,7 @@ An exploration of video denoising/ restoration methods.
 
 -   [Video Denoising](https://paperswithcode.com/task/video-denoising)
 -   [Video Restoration](https://paperswithcode.com/task/video-restoration)
+-   [Video Enhancement](https://paperswithcode.com/task/video-enhancement)
 -   [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)
 -   [Video Frame Interpolation](https://paperswithcode.com/task/video-frame-interpolation)
 
@@ -23,6 +24,7 @@ An exploration of video denoising/ restoration methods.
 -   [TIP 2020] [Learning Spatial and Spatio-Temporal Pixel Aggregations for Image and Video Denoising](https://arxiv.org/abs/2101.10760) [[website]](https://sites.google.com/view/xiangyuxu/denoise_stpan) [[code]](https://github.com/jojo23333/STPAN)
 -   [ICCP 2021] [Multi-Stage Raw Video Denoising with Adversarial Loss and Gradient Mask](https://arxiv.org/abs/2103.02861) [[website]](https://people.engr.tamu.edu/nimak/Papers/ICCP2021_denoising/index.html) [[code]](https://github.com/avinashpaliwal/MaskDnGAN)
 -   [CVPR 2020] [Supervised Raw Video Denoising with a Benchmark Dataset on Dynamic Scenes](https://openaccess.thecvf.com/content_CVPR_2020/html/Yue_Supervised_Raw_Video_Denoising_With_a_Benchmark_Dataset_on_Dynamic_CVPR_2020_paper.html) [[code]](https://github.com/cao-cong/RViDeNet)
+-   [SIGGRAPH Asia 2019] [DeepRemaster: Temporal Source-Reference Attention Networks for Comprehensive Video Enhancement](http://iizuka.cs.tsukuba.ac.jp/projects/remastering/en/index.html)
 
 ## Code
 
