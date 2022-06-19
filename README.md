@@ -11,6 +11,11 @@ An exploration of video denoising/ restoration methods.
 
 ## Papers
 
+-   [CVPR 2022] [Neural Compression-Based Feature Learning for Video Restoration](https://openaccess.thecvf.com/content/CVPR2022/html/Huang_Neural_Compression-Based_Feature_Learning_for_Video_Restoration_CVPR_2022_paper.html)
+-   [CVPR 2022] [Revisiting Temporal Alignment for Video Restoration](https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Revisiting_Temporal_Alignment_for_Video_Restoration_CVPR_2022_paper.html)
+-   [CVPR 2022] [Long-Term Video Frame Interpolation via Feature Propagation](https://openaccess.thecvf.com/content/CVPR2022/html/Argaw_Long-Term_Video_Frame_Interpolation_via_Feature_Propagation_CVPR_2022_paper.html)
+-   [CVPR 2022] [Video Frame Interpolation Transformer](https://openaccess.thecvf.com/content/CVPR2022/html/Shi_Video_Frame_Interpolation_Transformer_CVPR_2022_paper.html)
+-   [CVPR 2022] [Video Frame Interpolation With Transformer](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_Video_Frame_Interpolation_With_Transformer_CVPR_2022_paper.html)
 -   [Arxiv 2022] [Recurrent Video Restoration Transformer with Guided Deformable Attention](https://arxiv.org/abs/2206.02146)
 -   [Arxiv 2022] [VRT: A Video Restoration Transformer](https://arxiv.org/abs/2201.12288) [[code]](https://github.com/jingyunliang/vrt)
 -   [CVPR 2021] [Efficient Multi-Stage Video Denoising with Recurrent Spatio-Temporal Fusion](https://openaccess.thecvf.com/content/CVPR2021/html/Maggioni_Efficient_Multi-Stage_Video_Denoising_With_Recurrent_Spatio-Temporal_Fusion_CVPR_2021_paper.html) [[code]](https://github.com/Baymax-chen/EMVD)
