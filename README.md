@@ -1,14 +1,13 @@
-# Image_and_Video_Denoising
+# Video Restoration
 
-An exploration of image and video denoising/ restoration algorithms.
+An exploration of video denoising/ restoration methods.
 
 ## Related Tasks
 
--   [Denoising](https://paperswithcode.com/task/denoising)
--   [Image Denoising](https://paperswithcode.com/task/image-denoising)
 -   [Video Denoising](https://paperswithcode.com/task/video-denoising)
--   [Image Restoration](https://paperswithcode.com/task/image-restoration)
 -   [Video Restoration](https://paperswithcode.com/task/video-restoration)
+-   [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)
+-   [Video Frame Interpolation](https://paperswithcode.com/task/video-frame-interpolation)
 
 ## Papers
 
@@ -19,3 +18,8 @@ An exploration of image and video denoising/ restoration algorithms.
 -   [TIP 2020] [Learning Spatial and Spatio-Temporal Pixel Aggregations for Image and Video Denoising](https://arxiv.org/abs/2101.10760) [[website]](https://sites.google.com/view/xiangyuxu/denoise_stpan) [[code]](https://github.com/jojo23333/STPAN)
 -   [ICCP 2021] [Multi-Stage Raw Video Denoising with Adversarial Loss and Gradient Mask](https://arxiv.org/abs/2103.02861) [[website]](https://people.engr.tamu.edu/nimak/Papers/ICCP2021_denoising/index.html) [[code]](https://github.com/avinashpaliwal/MaskDnGAN)
 -   [CVPR 2020] [Supervised Raw Video Denoising with a Benchmark Dataset on Dynamic Scenes](https://openaccess.thecvf.com/content_CVPR_2020/html/Yue_Supervised_Raw_Video_Denoising_With_a_Benchmark_Dataset_on_Dynamic_CVPR_2020_paper.html) [[code]](https://github.com/cao-cong/RViDeNet)
+
+## Code
+
+-   [cszn / KAIR](https://github.com/cszn/KAIR)
+-   [JingyunLiang / VRT](https://github.com/JingyunLiang/VRT)
