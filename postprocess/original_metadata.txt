@@ -1,0 +1,93 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'Solo.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    creation_time   : 2022-07-02T09:32:35.000000Z
+  Duration: 00:17:39.93, start: 0.000000, bitrate: 10007 kb/s
+  Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1400x1080, 10006 kb/s, 15 fps, 15 tbr, 30k tbn, 30 tbc (default)
+    Metadata:
+      creation_time   : 2022-07-02T09:32:35.000000Z
+      handler_name    : ?Mainconcept Video Media Handler
+      vendor_id       : [0][0][0][0]
+      encoder         : AVC Coding
+
+{
+    "width": 1400,
+    "height": 1080,
+    "fps": 15.0,
+    "fourcc": 828601953.0,
+    "frame_count": 15899,
+    "brightness": 0.0,
+    "contrast": 0.0,
+    "saturation": 0.0,
+    "hue": 0.0,
+    "gain": 0.0,
+    "convert_rgb": 0.0
+}
+
+====================================================================================================================================================================
+  
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'Viering van den gerebeg moeloed te Solo.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: isommp41avc1
+    creation_time   : 2009-04-15T09:01:43.000000Z
+  Duration: 00:17:40.00, start: 0.000000, bitrate: 29978 kb/s
+  Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv), 1920x1080 [SAR 1:1 DAR 16:9], 29978 kb/s, 18 fps, 18 tbr, 18k tbn, 36 tbc (default)
+    Metadata:
+      creation_time   : 2009-04-15T09:01:43.000000Z
+      handler_name    : ?Apple Video Media Handler
+      vendor_id       : appl
+  Stream #0:1(eng): Data: none (mp4s / 0x7334706D), 0 kb/s (default)
+    Metadata:
+      creation_time   : 2009-04-15T09:01:43.000000Z
+  Stream #0:2(eng): Data: none (mp4s / 0x7334706D), 0 kb/s (default)
+    Metadata:
+      creation_time   : 2009-04-15T09:01:43.000000Z
+      handler_name    : ?
+
+{
+    "width": 1920,
+    "height": 1080,
+    "fps": 18.0,
+    "fourcc": 828601953.0,
+    "frame_count": 19079.0,
+    "brightness": 0.0,
+    "contrast": 0.0,
+    "saturation": 0.0,
+    "hue": 0.0,
+    "gain": 0.0,
+    "convert_rgb": 0.0
+}
+
+====================================================================================================================================================================
+    
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'De tabakscultuur op Midden Java_sd-square_50fps_h264_silent.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41
+    creation_time   : 2022-06-07T11:16:20.000000Z
+  Duration: 01:06:31.64, start: 0.000000, bitrate: 10372 kb/s
+  Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 768x576 [SAR 1:1 DAR 4:3], 10370 kb/s, 50 fps, 50 tbr, 50k tbn, 100 tbc (default)
+    Metadata:
+      creation_time   : 2022-06-07T11:16:20.000000Z
+      handler_name    : ?Mainconcept Video Media Handler
+      vendor_id       : [0][0][0][0]
+      encoder         : AVC Coding
+
+{
+    "width": 768,
+    "height": 576,
+    "fps": 50.0,
+    "fourcc": 828601953.0,
+    "frame_count": 199582.0,
+    "brightness": 0.0,
+    "contrast": 0.0,
+    "saturation": 0.0,
+    "hue": 0.0,
+    "gain": 0.0,
+    "convert_rgb": 0.0
+}
