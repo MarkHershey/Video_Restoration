@@ -1,5 +1,8 @@
 # project specific
 frames
+photo_restoration
+preprocess/test
+*.mp4
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

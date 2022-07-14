@@ -43,7 +43,7 @@ def estimate_space_required(cap):
 
 
 def main():
-    extract_frames_from_video("REPLACE_ME.mp4")
+    extract_frames_from_video("Solo.mp4")
 
 
 if __name__ == "__main__":
