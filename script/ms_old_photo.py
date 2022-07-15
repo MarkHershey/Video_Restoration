@@ -23,4 +23,11 @@ assert OUT_DIR.is_dir()
 
 cmd = f"python photo_restoration/run.py --input_folder {IN_DIR} --output_folder {OUT_DIR} --GPU 0 --with_scratch --HR"
 
+
+"""
+python run.py --input_folder /home/markhuang/code/Video_Restoration/preprocess/test/test-frames --output_folder /home/markhuang/code/Video_Restoration/preprocess/test/test-out --GPU 1 --with_scratch --HR
+
+python run.py --input_folder /home/markhuang/code/Video_Restoration/preprocess/frames --output_folder /home/markhuang/Data/solo_out_1 --GPU 2 --with_scratch --HR
+
+"""
 run_cmd(cmd)
