@@ -10,7 +10,7 @@ def extract_frames_from_video(video_filepath: str, output_dir: str = "./frames")
     outpath = Path(output_dir)
     outpath.mkdir(parents=True, exist_ok=True)
 
-    cap = cv2.VideoCapture(video_filepath)
+    cap = cv2.VideoCapture(str(inpath))
     length = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     print(f"Total number of frames: {length}")
     estimate_space_required(cap)
@@ -43,7 +43,14 @@ def estimate_space_required(cap):
 
 
 def main():
-    extract_frames_from_video("Solo.mp4")
+    base = Path("./")
+    original = base / "original"
+    frames = base / "frames"
+
+    extract_frames_from_video(original / "Java.mp4", frames / "Java")
+    extract_frames_from_video(original / "Solo_cropped.mp4", frames / "Solo_cropped")
+    extract_frames_from_video(original / "Solo.mp4", frames / "Solo")
+
 
 
 if __name__ == "__main__":
