@@ -12,6 +12,12 @@ An exploration of video denoising/ restoration methods.
 
 ## Papers
 
+### Survey
+
+-   [Video Restoration Based On Deep Learning: A Comprehensive Survey](https://assets.researchsquare.com/files/rs-1714666/v1_covered.pdf?c=1654524746)
+
+### General
+
 -   [CVPR 2022] [Neural Compression-Based Feature Learning for Video Restoration](https://openaccess.thecvf.com/content/CVPR2022/html/Huang_Neural_Compression-Based_Feature_Learning_for_Video_Restoration_CVPR_2022_paper.html)
 -   [CVPR 2022] [Revisiting Temporal Alignment for Video Restoration](https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Revisiting_Temporal_Alignment_for_Video_Restoration_CVPR_2022_paper.html)
 -   [CVPR 2022] [Long-Term Video Frame Interpolation via Feature Propagation](https://openaccess.thecvf.com/content/CVPR2022/html/Argaw_Long-Term_Video_Frame_Interpolation_via_Feature_Propagation_CVPR_2022_paper.html)
@@ -26,7 +32,13 @@ An exploration of video denoising/ restoration methods.
 -   [CVPR 2020] [Supervised Raw Video Denoising with a Benchmark Dataset on Dynamic Scenes](https://openaccess.thecvf.com/content_CVPR_2020/html/Yue_Supervised_Raw_Video_Denoising_With_a_Benchmark_Dataset_on_Dynamic_CVPR_2020_paper.html) [[code]](https://github.com/cao-cong/RViDeNet)
 -   [SIGGRAPH Asia 2019] [DeepRemaster: Temporal Source-Reference Attention Networks for Comprehensive Video Enhancement](http://iizuka.cs.tsukuba.ac.jp/projects/remastering/en/index.html)
 
+### Specific to Old Photo/Film Restoration
+
+-   [CVPR 2022] [Bringing Old Films Back to Life](https://arxiv.org/abs/2203.17276)
+-   [CVPR 2020] [Oral] [Bringing Old Photos Back to Life](https://arxiv.org/abs/2004.09484)
+
 ## Code
 
 -   [cszn / KAIR](https://github.com/cszn/KAIR)
 -   [JingyunLiang / VRT](https://github.com/JingyunLiang/VRT)
+-   [Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life)
