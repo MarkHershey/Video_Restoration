@@ -52,6 +52,5 @@ def main():
     extract_frames_from_video(original / "Solo.mp4", frames / "Solo")
 
 
-
 if __name__ == "__main__":
     main()
