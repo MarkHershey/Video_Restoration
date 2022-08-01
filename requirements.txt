@@ -1,2 +1,8 @@
 tqdm
 opencv-python
+scikit-image
+numpy
+scipy
+Pillow
+matplotlib
+imgaug
