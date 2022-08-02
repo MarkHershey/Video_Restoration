@@ -1,8 +1,10 @@
+import argparse
 import os
 from pathlib import Path
 from typing import Union
 
 import cv2
+import numpy as np
 import tqdm
 
 
@@ -65,5 +67,55 @@ def batch_downsize_images(
         downsize_image_cv2(img_path, out_path, downscale_factor)
 
 
+def convert_image_to_grayscale(
+    img_path: Union[Path, str],
+    out_path: Union[Path, str],
+) -> None:
+    assert Path(img_path).is_file()
+    assert not Path(out_path).exists()
+
+    img = cv2.imread(str(img_path), cv2.IMREAD_COLOR)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    img = img.astype(np.uint8)
+    cv2.imwrite(str(out_path), img)
+    return None
+
+
+def batch_grayscale_images(
+    in_dir: Union[Path, str],
+    out_dir: Union[Path, str],
+):
+    in_dir = Path(in_dir)
+    assert in_dir.is_dir()
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    for img_name in tqdm.tqdm(os.listdir(in_dir)):
+        if not img_name.endswith((".jpg", ".png", ".jpeg")):
+            continue
+        img_path = in_dir / img_name
+        out_path = out_dir / img_name
+        convert_image_to_grayscale(img_path, out_path)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--in_dir",
+        type=str,
+        default="data/raw",
+        help="Path to directory containing images to process",
+    )
+    parser.add_argument(
+        "--out_dir",
+        type=str,
+        default="data/processed",
+        help="Path to directory to save processed images",
+    )
+    args = parser.parse_args()
+    # batch_downsize_images(args.in_dir, args.out_dir)
+    # batch_grayscale_images(args.in_dir, args.out_dir)
+
+
 if __name__ == "__main__":
-    batch_downsize_images("./", "./out")
+    main()

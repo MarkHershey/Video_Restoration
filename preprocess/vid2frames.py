@@ -1,3 +1,4 @@
+import argparse
 from pathlib import Path
 
 import cv2
@@ -43,13 +44,15 @@ def estimate_space_required(cap):
 
 
 def main():
-    base = Path("./")
-    original = base / "original"
-    frames = base / "frames"
-
-    extract_frames_from_video(original / "Java.mp4", frames / "Java")
-    extract_frames_from_video(original / "Solo_cropped.mp4", frames / "Solo_cropped")
-    extract_frames_from_video(original / "Solo.mp4", frames / "Solo")
+    parser = argparse.ArgumentParser(description="Extract frames from video")
+    parser.add_argument("v_path", help="Path to video file")
+    parser.add_argument(
+        "--out_dir",
+        default="./frames",
+        help="Path to output directory",
+    )
+    args = parser.parse_args()
+    extract_frames_from_video(args.v_path, args.out_dir)
 
 
 if __name__ == "__main__":

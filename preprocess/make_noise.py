@@ -65,7 +65,7 @@ def main(
     if noise_type == "gaussian":
         mean = 0
         var = 0.01
-        sigma = var ** 0.5
+        sigma = var**0.5
         noise = np.random.normal(mean, sigma, (height, width))
         noise = noise.reshape(height, width) * 255
         img = img + noise
