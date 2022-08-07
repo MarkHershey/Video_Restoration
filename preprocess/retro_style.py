@@ -95,6 +95,46 @@ def process_batch(images: List[np.ndarray]) -> List[np.ndarray]:
     return images_aug
 
 
+def demo(source_img: str):
+    images = load_images([source_img])
+    seq = iaa.GaussianBlur((3, 3.0))
+    images_1 = seq(images=images)
+    save_batched_images(images_1, ["1.jpg"])
+
+    seq = iaa.AverageBlur(k=(7, 7))
+    images_2 = seq(images=images)
+    save_batched_images(images_2, ["2.jpg"])
+
+    seq = iaa.MedianBlur(k=(7, 11))
+    images_3 = seq(images=images)
+    save_batched_images(images_3, ["3.jpg"])
+
+    seq = iaa.Dropout((0.01, 0.05))
+    images_4 = seq(images=images)
+    save_batched_images(images_4, ["4.jpg"])
+
+    seq = iaa.Snowflakes(flake_size=(0.05, 0.3), speed=(0.001, 0.03))
+    images_5 = seq(images=images)
+    save_batched_images(images_5, ["5.jpg"])
+
+    seq = iaa.imgcorruptlike.Fog(severity=1)
+    images_6 = seq(images=images)
+    save_batched_images(images_6, ["6.jpg"])
+
+    seq = iaa.imgcorruptlike.Contrast(severity=1)
+    images_7 = seq(images=images)
+    save_batched_images(images_7, ["7.jpg"])
+
+    seq = iaa.BlendAlphaFrequencyNoise(
+        foreground=iaa.EdgeDetect(1.0),
+        upscale_method="linear",
+        sigmoid_thresh=iap.Normal(10.0, 5.0),
+        exponent=-2,
+    )
+    images_8 = seq(images=images)
+    save_batched_images(images_8, ["8.jpg"])
+
+
 def save_batched_images(images: List[np.ndarray], out_paths: List[str] = []):
     assert len(images) == len(out_paths)
     for i in range(len(images)):
@@ -157,3 +197,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # demo("samples/grayscale.png")
