@@ -2,15 +2,19 @@
 
 An exploration of video denoising/ restoration methods.
 
-## Related Tasks
+## Dataset
 
--   [Video Denoising](https://paperswithcode.com/task/video-denoising)
--   [Video Restoration](https://paperswithcode.com/task/video-restoration)
--   [Video Enhancement](https://paperswithcode.com/task/video-enhancement)
--   [Video Super-Resolution](https://paperswithcode.com/task/video-super-resolution)
--   [Video Frame Interpolation](https://paperswithcode.com/task/video-frame-interpolation)
+![](assets/pipeline.png)
 
-## Papers
+![](assets/dataset.png)
+
+## Results
+
+![](assets/qualitative.png)
+
+![](assets/rbc.png)
+
+## References
 
 ### Survey
 
@@ -36,9 +40,3 @@ An exploration of video denoising/ restoration methods.
 
 -   [CVPR 2022] [Bringing Old Films Back to Life](https://arxiv.org/abs/2203.17276)
 -   [CVPR 2020] [Oral] [Bringing Old Photos Back to Life](https://arxiv.org/abs/2004.09484)
-
-## Code
-
--   [cszn / KAIR](https://github.com/cszn/KAIR)
--   [JingyunLiang / VRT](https://github.com/JingyunLiang/VRT)
--   [Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life)
